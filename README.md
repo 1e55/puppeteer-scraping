@@ -2,6 +2,11 @@
 
 An example of scrapping Kickstarter.com for their 'Fresh Favories' list.
 
+### At a glance
+![Code at a glance](scrape.png)
+### Sample output
+![Sample output](output.png)
+
 ## Try it for yourself
 
 To test this example, you will need NodeJS installed on your system.
