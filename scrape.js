@@ -17,7 +17,7 @@ const puppeteer = require("puppeteer");
     // Find the parent element of data you want to scrape.
     // Unfortunately, Kickstarter uses some Tachyion.io type of styling,
     // so we cant use unique class names to select our parent element.
-    // Instead we can use X Path to select an element.
+    // Instead we can use descendant selectors to select an element.
 
     // In Chrome, you can right click the element on the screen and it will open the Developer Console.
     // In the Developer Console, find the parent element and right click, select Copy, and then select Copy JS path
