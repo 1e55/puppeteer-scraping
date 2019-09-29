@@ -1,7 +1,7 @@
 # Scraping with Puppeteer
 
 An example of scraping Kickstarter.com for their 'Fresh Favorites' list.
-(Detailed comment in source)
+(Detailed comments in source)
 
 ### At a glance
 ![Code at a glance](scrape.png)
