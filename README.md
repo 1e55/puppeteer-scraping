@@ -1,4 +1,4 @@
-# Scrapping with Puppeteer
+# Scraping with Puppeteer
 
 An example of scrapping Kickstarter.com for their 'Fresh Favories' list.
 (Detailed comment in source)
