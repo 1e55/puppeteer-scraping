@@ -24,7 +24,7 @@ const puppeteer = require("puppeteer");
     // which will open the developer console and
     // highlight the element you clicked.
 
-    // Then in the developer console, right click the element and click Copy, then Copy JS Path.
+    // Then in the developer console, right click the element and click Copy, then click Copy JS Path.
     // You literally get this querySelector, its basically magic.
 
     const container = document.querySelector(
@@ -35,7 +35,7 @@ const puppeteer = require("puppeteer");
     let children = container.childNodes;
     let data = []; //An array to store our new data objects
 
-    // You can use querySelector on each child to get whatever child of the children you want
+    // You can use querySelector on each child to get what ever child of the children you want
     children.forEach(child => {
       data.push({
         title: child.querySelector("h3").innerText,
