@@ -30,13 +30,13 @@ const puppeteer = require("puppeteer");
     //This will be the array we store all our newly scraped data.
     let data = [];
     //To iterate through a nodelist, you can use forEach.
-    children.forEach(child => {
+    children.forEach((child) => {
       //Push the data from each child in to our data array.
       data.push({
         //With the node child, we can perform querySelectors to pick apart our childs child nodes for data.
         title: child.querySelector("h3").innerText,
         description: child.querySelector("p").innerText,
-        link: child.querySelector("a").getAttribute("href")
+        link: child.querySelector("a").getAttribute("href"),
       });
     });
     //Return the ~freshly~ collected data
